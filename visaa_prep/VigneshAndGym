@@ -1,0 +1,11 @@
+L=list(map(int,input().split()))
+X=L[0]
+Y=L[1]
+Z=L[2]
+if Z>X:
+    if Z>=(X+Y):
+        print('2')
+    else:
+        print('1')
+else:
+    print('0')
